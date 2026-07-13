@@ -87,20 +87,6 @@ img{
     margin: 18px auto 0;
 }
 
-.button-link{
-    display: inline-block;
-    min-width: 180px;
-    padding: 12px 22px;
-    border-radius: 999px;
-    background-color: #8a4f24;
-    color: #ffffff;
-    font-weight: bold;
-    text-align: center;
-}
-.button-link:hover{
-    background-color: #c47a2c;
-}
-
 .footer{
     color: #fffaf0;
     background-color: #2f2116;
