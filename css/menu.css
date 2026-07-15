@@ -19,10 +19,12 @@
     line-height: 1.2;
 }
 
-.section-title{
-    font-size: 50px;
-    margin-top: 20px;
-
+.orange-line {
+    border: none;             
+    height: 3px;             
+    background-color: #b56622; 
+    width: 100px;             
+    margin: 30px auto;        
 }
 
 .menu-list{
@@ -40,17 +42,40 @@
     max-width: 320px;    
     margin: 0 auto;    
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu-list li img {
+    width: 100%;        
+    height: 180px;      
+    object-fit: cover; 
 }
 
 .menu-text{
     text-align: center;
     padding: 20px 22px 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: auto;
 }
+
 .menu-text h3{
     text-align: center;
     font-size: 20px;
     color: #4c2f18;
+    font-size: 1.1rem;
+    margin: 0 0 8px 0;
 }
+
+.menu-text .price {  
+    font-weight: bold;
+    color: #c85a17;    
+    margin-bottom: 0;
+}
+
 .menu-text p{
     text-align: center;
     font-size: 15px;
@@ -61,8 +86,6 @@
     color: #b56622;
     font-weight: bold;
 }
-
-
 
 @media(max-width: 800px){
     .title{
